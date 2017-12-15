@@ -3,6 +3,7 @@ Project
 
 In this project, I study the music genre classification.
 
+The main code file is in FinalProject.ipynb.
 I used keras(tensor flow) to train the data from GTZAN which provides a great data site for music analysis.
 GTZAN data set could be downloaded from here:  
 http://marsyasweb.appspot.com/download/data_sets/
