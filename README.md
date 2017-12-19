@@ -12,7 +12,14 @@ The original data set was using “.au” audio file, I used footbar2000 to tran
 
 The packages that required for this project were used for this course. 
 
-I found some sound processing python code to process the data that I download from GTZAN.
+I found some sound processing python code that would help me to process the data that I download from GTZAN.
 audiofile_read.py
 rp_extract.py
 wavio.py
+
+The result is ok compare to what have existed online. 
+
+Something else may work:
+The human reaction for a music genre is mostly base on the instruments. 
+So to improve the accuraccy, one way is to extract instrument frame out of spectrum.
+For example, I can replace the low requency mel frame to drum play, so '1' for 1 beat, 0 for else. Ignoring the contiune vibration sound, this might clear out the interferes and increase the accuracy.
