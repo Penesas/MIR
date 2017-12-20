@@ -23,3 +23,6 @@ Something else may work:
 The human reaction for a music genre is mostly base on the instruments. 
 So to improve the accuraccy, one way is to extract instrument frame out of spectrum.
 For example, I can replace the low requency mel frame to drum play, so '1' for 1 beat, 0 for else. Ignoring the contiune vibration sound, this might clear out the interferes and increase the accuracy.
+
+
+Cite: https://github.com/tuwien-musicir/DL_MIR_Tutorial by Thomas Lidy
